@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Group Names ###
 Garrett Salyer  
---Jorge  
+Jorge Villavicencio  
 --Gena
 
 ### TO DO ###
