@@ -51,6 +51,11 @@ public class Weather
         return json.getAsJsonObject().get("current_observation").getAsJsonObject().get("display_location").getAsJsonObject().get("full").getAsString();
     }
 
+    public String getIcon()
+    {
+        return json.getAsJsonObject().get("current_observation").getAsJsonObject().get("icon").getAsString() + ".gif";
+    }
+
 
     public static void main(String[] args)
     {
@@ -58,5 +63,6 @@ public class Weather
         System.out.println(w.getCityState());
         System.out.println(w.getWeather());
         System.out.println(w.getTemperature());
+        System.out.println(w.getIcon());
     }
 }
