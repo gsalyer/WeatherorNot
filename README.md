@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### Group Names ###
 Garrett Salyer  
 Jorge Villavicencio  
---Gena
+Gena Cattaneo
 
 ### TO DO ###
 -Add icons to project (and integrate into GUI)
