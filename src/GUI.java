@@ -1,4 +1,6 @@
 import acm.graphics.GCanvas;
+import acm.graphics.GImage;
+import acm.graphics.GRect;
 import acm.program.Program;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -9,6 +11,7 @@ public class GUI extends Program {
     private JLabel weather;
     private JLabel temperature;
     private JLabel cityState;
+    private GImage image;
 
     public GUI() {
         start();
@@ -19,6 +22,7 @@ public class GUI extends Program {
 
         GCanvas canvas = new GCanvas();
         this.add(canvas);
+
 
         JLabel weatherLabel;
         JLabel tempLabel;
@@ -72,7 +76,8 @@ public class GUI extends Program {
         cityState = new JLabel("");
         cityState.setSize(300, 20);
         canvas.add(cityState, 110, 110);
-
+        image = new GImage ("");
+        canvas.add (image,110,120);
         addActionListeners();
     }
 
@@ -85,6 +90,7 @@ public class GUI extends Program {
         weather.setText(w.getWeather());
         temperature.setText(w.getTemperature());
         cityState.setText(w.getCityState());
+        image.setImage("icons/" + w.getIcon());
     }
 
     public void clearInfo() {
@@ -92,5 +98,6 @@ public class GUI extends Program {
         this.weather.setText("");
         temperature.setText("");
         cityState.setText("");
+        image.setImage("");
     }
 }
