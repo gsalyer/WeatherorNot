@@ -8,4 +8,3 @@ Jorge Villavicencio
 Gena Cattaneo
 
 ### TO DO ###
--Add icons to project (and integrate into GUI)
