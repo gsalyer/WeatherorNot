@@ -1,10 +1,8 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Final project for CS 13 at Sierra College.
 
 ### Group Names ###
 Garrett Salyer  
 Jorge Villavicencio  
 Gena Cattaneo
-
-### TO DO ###
