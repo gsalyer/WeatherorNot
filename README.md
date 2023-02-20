@@ -5,7 +5,7 @@ Final project for CS 13 at Sierra College.
 - Daily and 10-day weather forecast
 - Full-featured GUI designed for Android
 
-### Contributors ###
-Garrett Salyer  
-Jorge Villavicencio  
-Gena Cattaneo
+### Contributors: ###
+- Garrett Salyer  
+- Jorge Villavicencio  
+- Gena Cattaneo
