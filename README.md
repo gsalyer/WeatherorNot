@@ -1,4 +1,4 @@
-# Bored Board #
+# Weather or Not #
 Final project for CS 13 at Sierra College.
 
 ## Features
